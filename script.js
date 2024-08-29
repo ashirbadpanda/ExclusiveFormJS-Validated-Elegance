@@ -12,14 +12,18 @@ themeBtn.addEventListener("click",()=>{
         form.style.boxShadow = "0px 0px 10px black"
         button[0].style.backgroundColor="white"
         button[0].style.border="2px solid black"
-        button[0].style.color="black"
+        button[0].style.color="black"  
+        button[0].style.boxShadow = "0px 0px 15px black";
         button[1].style.backgroundColor="white"
         button[1].style.border="2px solid black"
-        button[1].style.color="black"
+        button[1].style.color = "black";
+        button[1].style.boxShadow="0px 0px 10px black";
 
         inputs.forEach((input)=>{
             input.style.backgroundColor="white"
             input.style.border = "2px solid black"
+            input.style.color="black"
+            input.style.boxShadow="0px 0px 10px black";
         })
 
         themeBtn.innerText = "Dark"
@@ -30,13 +34,16 @@ themeBtn.addEventListener("click",()=>{
         button[0].style.backgroundColor="black"
         button[0].style.border="2px solid white"
         button[0].style.color="white"
+        button[0].style.boxShadow = "0px 0px 15px white";
         button[1].style.backgroundColor="black"
         button[1].style.border="2px solid white"
         button[1].style.color="white"
+        button[1].style.boxShadow="0px 0px 10px white";
 
         inputs.forEach((input)=>{
             input.style.backgroundColor="black"
             input.style.border="2px solid white"
+            input.style.color="white"
         })
         themeBtn.innerText = "Light"
     }

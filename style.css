@@ -37,6 +37,7 @@ section>form>input{
     color: white;
     box-shadow: 0px 0px 10px white;
     padding-left: 10px;
+    border-radius: 15px;
 }
 
 section>form>button{
@@ -46,6 +47,7 @@ section>form>button{
     background-color: black;
     color: white;
     box-shadow: 0px 0px 10px white;
+    border-radius: 15px;
 }
 
 section>form>button:hover{
@@ -60,7 +62,7 @@ section>button{
     position: absolute;
     right: 20px;
     top: 20px;
-    /* background-color: black; */
+    background-color: black;
     color: white;
     border: 1px solid white;
     box-shadow: 0px 0px 15px white;
