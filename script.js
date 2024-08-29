@@ -44,6 +44,7 @@ themeBtn.addEventListener("click",()=>{
             input.style.backgroundColor="black"
             input.style.border="2px solid white"
             input.style.color="white"
+            input.style.boxShadow="0px 0px 10px white";
         })
         themeBtn.innerText = "Light"
     }
