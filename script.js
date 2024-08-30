@@ -49,3 +49,30 @@ themeBtn.addEventListener("click",()=>{
         themeBtn.innerText = "Light"
     }
 })
+
+
+//FORM VALIDATION
+
+
+function formHandle(){
+    event.preventDefault();
+    
+    let inputs = document.querySelectorAll("input")
+
+    // console.log(inputs[0].value);
+    // console.log(inputs[1].value);
+
+    if(inputs[0].value===""||inputs[1].value===""){
+        inputs[0].style.border="2px solid red"
+        inputs[1].style.border="2px solid red"
+        alert("please fill in all fields")
+    }else{
+        inputs[0].style.border="2px solid green"
+        inputs[1].style.border="2px solid green"
+        alert("form submitted successfully")
+    }
+    
+    
+    
+    
+}
